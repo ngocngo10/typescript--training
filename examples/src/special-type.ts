@@ -79,3 +79,6 @@ function warnUser(): void {
 let unusable1: void = undefined;
 
 //-------------------------------------------Type: undefined & null---------------------------------
+//--------------------------------------------Type: never-----------------------
+// let x: never = true; // Error: Type 'boolean' is not assignable to type 'never'
+// never effectively throws an error whenever it is defined.
